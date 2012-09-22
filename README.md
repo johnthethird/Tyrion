@@ -12,8 +12,11 @@ Installation
 You can use the latest Rails 3 gem with the latest Tyrion gem. In your Gemfile:
 
   ```ruby
-  gem 'tyrion'
+  gem 'tyrion', :git => 'git://github.com/johnthethird/tyrion.git'
   ```
+
+> Note: There is another Gem named Tyrion, so you have to install from Github.  Yes, the other Gem has been around longer, but come on, this has got to be the best name ever for a URL shortener, right? So I'm standing my ground. :)
+
 
 Use bundler to install the Gem:
 
